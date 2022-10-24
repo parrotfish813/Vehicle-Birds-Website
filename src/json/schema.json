@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "BlogPost",
+    "@id": "vehiclebirds.space/blog.html"
+  },
+  "headline": "",
+  "description": "bug conversion kit",
+  "image": {
+    "@type": "ImageObject",
+    "url": "vehiclebirds.space/img/carCopters/bug/bugGreen.jpg",
+    "width": "",
+    "height": ""
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Melina Ramos"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Brandon Townes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "",
+      "width": "",
+      "height": ""
+    }
+  },
+  "datePublished": "10/24/2022"
+}
