@@ -1,0 +1,101 @@
+/* GLOBAL STYLES
+--------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+    
+#content-wrap {
+  padding-bottom: 2.5rem;  
+}
+
+/* Footer */
+footer {
+  background: #343A40;
+  color: white;
+  font-family: "Arial";
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 115px;
+  vertical-align: middle;
+}
+
+.icon {
+  width: 27px;
+  height: 27px;
+}
+
+.form-con {
+  padding-top: 120px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  align-items: center;
+}
+
+.col-md-4 button {
+  padding: 3px;
+  background-color: aqua;
+  font-weight: bold;
+}
+
+.hidden { 
+  display: none;
+}
+.visible { 
+  display: block;
+}
+
+#errors {
+  margin: 20px auto;
+  width: 350px; 
+  border-radius: 8px/7px; 
+  background-color: #ebebeb; 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  border: solid 1px #cbc9c9;    
+}
+#errors p { padding: 10px; }
