@@ -9,17 +9,17 @@
   "description": "bug conversion kit",
   "image": {
     "@type": "ImageObject",
-    "url": "vehiclebirds.space/img/carCopters/bug/bugGreen.jpg",
+    "url": "vehiclebirds.space/img/carCopters/bug/bugGreen.jpg vehiclebirds.space/img/carCopters/truck/truckCopterGreen.jpg",
     "width": "",
     "height": ""
   },
   "author": {
     "@type": "Person",
-    "name": "Melina Ramos"
+    "name": "Brandon Townes Melina Ramos Melia Reodriguez"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Brandon Townes",
+    "name": "Brandon Townes Melina Ramos Melia Reodriguez",
     "logo": {
       "@type": "ImageObject",
       "url": "",
