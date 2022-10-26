@@ -54,7 +54,7 @@
 
 /* Footer */
 footer {
-  background: #343A40;
+  background: #003049;
   color: white;
   font-family: "Arial";
   text-align: center;
@@ -99,3 +99,7 @@ footer {
   border: solid 1px #cbc9c9;    
 }
 #errors p { padding: 10px; }
+
+.navbarColoring {
+  background-color: #003049;
+}

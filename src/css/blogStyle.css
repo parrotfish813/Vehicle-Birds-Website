@@ -209,7 +209,7 @@
 
         /* Footer */
 footer {
-  background: #343A40;
+  background: #003049;
   color: white;
   font-family: "Arial";
   text-align: center;
@@ -222,4 +222,8 @@ footer {
 .icon {
   width: 27px;
   height: 27px;
+}
+
+.navbarColoring {
+  background-color: #003049;
 }

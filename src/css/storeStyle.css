@@ -22,7 +22,7 @@ body {
 }
 
 footer {
-    background: #343A40;
+    background: #003049;
     color: white;
     font-family: "Arial";
     text-align: center;
@@ -46,3 +46,7 @@ header {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.navbarColoring {
+    background-color: #003049;
+  }
