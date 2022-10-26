@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: vehiclebirds.space/sitemap.xml
+Sitemap: http://vehiclebirds.space/sitemap.xml
