@@ -107,3 +107,7 @@ footer {
 .backlinks {
   display: none;
 }
+
+.head {
+  width: 100%;
+}
