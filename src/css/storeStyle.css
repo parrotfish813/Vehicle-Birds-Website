@@ -14,8 +14,8 @@
 }
 
 /* GLOBAL STYLES
---------------------------------------------- */
-/* Padding below the footer and lighter body text */
+--------------------------------------------- /
+/ Padding below the footer and lighter body text */
 
 body {
     color: #5a5a5a;
@@ -47,46 +47,18 @@ header {
     margin-bottom: 20px;
 }
 
-.backlinks {
-    display: none;
+.navbarColoring {
+    background-color: #003049;
+  }
+
+.head {
+    width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.jumbotron {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #D62828;
+    padding-bottom: 4px;
+    color: white;
+}
