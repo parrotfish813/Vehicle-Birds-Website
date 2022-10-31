@@ -50,3 +50,15 @@ header {
 .navbarColoring {
     background-color: #003049;
   }
+
+.head {
+    width: 100%;
+}
+
+.jumbotron {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #D62828;
+    padding-bottom: 4px;
+    color: white;
+}
