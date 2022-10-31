@@ -62,3 +62,7 @@ header {
     padding-bottom: 4px;
     color: white;
 }
+
+.backlinks {
+    display: none;
+  }
