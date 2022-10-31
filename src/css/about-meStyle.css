@@ -267,3 +267,7 @@ footer {
   width: 27px;
   height: 27px;
 }
+
+.backlinks {
+  display: none;
+}

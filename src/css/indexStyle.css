@@ -129,3 +129,7 @@
   .navbarColoring {
     background-color: #003049;
   }
+
+.backlinks {
+    display: none;
+}
