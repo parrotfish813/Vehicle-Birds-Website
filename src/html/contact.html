@@ -23,7 +23,7 @@
   <body>
 
       <header>
-        <nav class="navbar navbar-expand-md navbar-dark navbarColoring">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top navbarColoring">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Vehicle Birds</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,9 +51,8 @@
         </div>
         </nav>
         <picture>
-          <source srcset="../img/mainLogos/Header.jpg"
-                  media="(min-width: 767px)">
-                  <img src="../img/mainLogos/HeaderMobile.jpg" class="img-fluid" alt="Vehicle Birds Cool Banner">
+          <source srcset="../img/mainLogos/Header.jpg" media="(min-width: 767px)">
+          <img src="../img/mainLogos/HeaderMobile.jpg" class="img-fluid" alt="Vehicle Birds Cool Banner">
         </picture>
       </header>
 
@@ -63,17 +62,18 @@
   <form method="get" action="#" id="contactForm">
   
   <!-- Form Name -->
-  <center><h2><b>Contact Form</b></h2></center><br>
+  <center><h1><b>Contact Form</b></h1></center><br>
+    <h4>Please review the <a href="store.html">Store</a> page and include which product you would like more information about for a detailed breakdown and quote!</h4>
   
   <!-- Text input First Name-->
-  <label class="form-label">First Name</label>  
+  <label class="col-md-4 form-label">First Name</label>
   <div class="col-md-4 inputGroupContainer">
   <input type="text" class="form-control" placeholder="First Name" id="fname" aria-describedby="inputGroupPrepend">
   </div>
   
   
   <!-- Text input Last Name-->
-    <label class="col-md-4 control-label" >Last Name</label> 
+    <label class="col-md-4 form-label" >Last Name</label>
       <div class="col-md-4 inputGroupContainer">
         <input type="text" class="form-control" placeholder="Last Name" id="lname" aria-describedby="inputGroupPrepend">
       </div>
@@ -87,15 +87,15 @@
   
   
   <!-- Text input Email-->
-    <label class="col-md-4 control-label">Email</label>  
+    <label class="col-md-4 form-label">Email</label>
       <div class="col-md-4 inputGroupContainer">
       <input type="text" class="form-control" placeholder="Email" id="email" aria-describedby="inputGroupPrepend">
       </div>
 
       <!-- Text input Comments-->
-    <label class="col-md-4 control-label">Comments</label>  
+    <label class="col-md-4 form-label">Message</label>
     <div class="col-md-4 inputGroupContainer">
-    <textarea type="text" class="form-control" placeholder="Comments" id="comments" aria-describedby="inputGroupPrepend"></textarea>
+    <textarea type="text" class="form-control" placeholder="Message" id="message" aria-describedby="inputGroupPrepend"></textarea>
     </div>
     
   <!-- Submit and Reset Button's -->
@@ -115,25 +115,31 @@
 
       <!-- FOOTER -->
       <footer>
-        <p class="float-right"><a href="#">Back to top</a></p>
-
         <div id="contact">
           <h3>Contact Us</h3>
 
           <!-- Phone Number -->
           <div class="card-group d-inline-flex p-2">
             <img src="../img/icons/phone-icon.png" alt="Phone" style="width:auto;" class="icon">
-            <div> &nbsp; 407-834-2473 &nbsp;</div>
+            <div><p>&nbsp; 407-834-2473 &nbsp;</p></div>
 
             <!-- Email -->
           <img src="../img/icons/email-icon.png" alt="Email" style="width:auto;" class="icon">
-          <div> &nbsp; vehiclebirds@gmail.com &nbsp;</div>
+          <div><p>&nbsp; vehiclebirds@gmail.com &nbsp;</p></div>
 
           <!-- Instagram -->
-          <a href="https://www.instagram.com/vehiclebirds/"><img src="../img/icons/instagram-icon.png" alt="Instagram" style="width:auto;" class="icon"></a>
-          <a href="https://www.instagram.com/vehiclebirds/"><div> &nbsp; @vehiclebirds</div></a>
+            <a href="https://www.instagram.com/vehiclebirds/"><img src="../img/icons/instagram-icon.png" style = "margin-right: 10px" alt="Instagram" class="icon"></a>
+
+            <a href="https://twitter.com/VehicleBirds"><img src="../img/icons/twitter-icon.png" alt="Twitter" class="icon"></a>
+
+            <a href="https://www.facebook.com/vehiclebirds/"><img src="../img/icons/facebook-icon.png" style = "margin-left: 10px" alt="Facebook" class="icon"></a>
           </div>
         </div>
+
+        <!-- Copyright -->
+        <p>Copyright &copy; 2022 Vehicle Birds. &middot; All Rights Reserved</p>
+
+        <p><a href="#" style = "color: #D62829">Back to top</a></p>
 
         <div class="backlinks">
           <a href="https://hubpages.com/autos/vehiclebirds">Vehicle Birds HubPages Page</a>
@@ -144,8 +150,6 @@
           <a href="https://www.xing.com/profile/Brandon_Townes/cv">Vehicle Birds Xing Page</a>
         </div>
 
-        <!-- Copyright -->
-        <p>&copy; 2017-2020 Vehicle Birds. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>   
       </footer>
   </body>
 

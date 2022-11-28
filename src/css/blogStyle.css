@@ -1,222 +1,229 @@
-        
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-          }
-        
-          @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-              font-size: 3.5rem;
-            }
-          }
-        
-          /* GLOBAL STYLES
-          --------------------------------------------- */
-          /* Padding below the footer and lighter body text */
-        
-          body {
-            padding-top: 3rem;
-            padding-bottom: 3rem;
-            color: #5a5a5a;
-          }
-        
-        
-          /* CUSTOMIZE THE CAROUSEL
-          -------------------------------------------- */
-        
-          /* Carousel base class */
-          .carousel {
-            margin-bottom: 4rem;
-          }
-        
-          /* Since positioning the image, we need to help out the caption */
-          .carousel-caption {
-            bottom: 3rem;
-            z-index: 10;
-          }
-        
-          /* Declare heights because of positioning of img element */
-          .carousel-item {
-            height: 32rem;
-          }
-        
-          .carousel-item>img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            min-width: 100%;
-            height: 32rem;
-          }
-        
-        
-          /* MARKETING CONTENT
-        -------------------------------------------------- */
-        
-          /* Center align the text within the three columns below the carousel */
-          .marketing .col-lg-4 {
-            margin-bottom: 1.5rem;
-            text-align: center;
-          }
-        
-          .marketing h2 {
-            font-weight: 400;
-          }
-        
-          .marketing .col-lg-4 p {
-            margin-right: .75rem;
-            margin-left: .75rem;
-          }
-        
-        
-          /* Featurettes
-        ------------------------- */
-        
-          .featurette-divider {
-            margin: 5rem 0;
-            /* Space out the Bootstrap <hr> more */
-          }
-        
-          /* Thin out the marketing headings */
-          .featurette-heading {
-            font-weight: 300;
-            line-height: 1;
-            letter-spacing: -.05rem;
-          }
-        
-        
-          /* RESPONSIVE CSS
-        -------------------------------------------------- */
-        
-          @media (min-width: 40em) {
-        
-            /* Bump up size of carousel content */
-            .carousel-caption p {
-              margin-bottom: 1.25rem;
-              font-size: 1.25rem;
-              line-height: 1.4;
-            }
-        
-            .featurette-heading {
-              font-size: 50px;
-            }
-          }
-        
-          @media (min-width: 62em) {
-            .featurette-heading {
-              margin-top: 7rem;
-            }
-          }
-          
-       
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
-          .blog-header {
-            line-height: 1;
-            border-bottom: 1px solid #e5e5e5;
-        }
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
 
-        .blog-header-logo {
-            font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-            font-size: 2.25rem;
-        }
+/* GLOBAL STYLES
+--------------------------------------------- */
+/* Padding below the footer and lighter body text */
 
-        .blog-header-logo:hover {
-            text-decoration: none;
-        }
+body {
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
 
-        h1, h2, h3, h4, h5, h6 {
-            font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-        }
 
-        .display-4 {
-            font-size: 2.5rem;
-        }
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------- */
 
-        @media (min-width: 768px) {
-            .display-4 {
-                font-size: 3rem;
-            }
-        }
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+}
 
-        .card-img-right {
-            height: 100%;
-            border-radius: 0 3px 3px 0;
-        }
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
 
-        .flex-auto {
-            flex: 0 0 auto;
-        }
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+}
 
-        .h-250 {
-            height: 250px;
-        }
+.carousel-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
 
-        @media (min-width: 768px) {
-            .h-md-250 {
-                height: 250px;
-            }
-        }
 
-        /* Pagination */
-        .blog-pagination {
-            margin-bottom: 4rem;
-        }
+/* MARKETING CONTENT
+-------------------------------------------------- */
 
-        .blog-pagination>.btn {
-            border-radius: 2rem;
-        }
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
 
-        /*
-        * Blog posts
-        */
-        .blog-post {
-            margin-bottom: 4rem;
-        }
+.marketing h2 {
+    font-weight: 400;
+}
 
-        .blog-post-title {
-            margin-bottom: .25rem;
-            font-size: 2.5rem;
-        }
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
 
-        .blog-post-meta {
-            margin-bottom: 1.25rem;
-            color: #727272;
-        }
 
-        /*
-        * Footer
-        */
-        .blog-footer {
-            padding: 2.5rem 0;
-            color: #727272;
-            text-align: center;
-            background-color: #f9f9f9;
-            border-top: .05rem solid #e5e5e5;
-        }
+/* Featurettes
+------------------------- */
 
-        .blog-footer p:last-child {
-            margin-bottom: 0;
-        }
+.featurette-divider {
+    margin: 5rem 0;
+    /* Space out the Bootstrap <hr> more */
+}
 
-        .container {
-            padding-top: 300px;
-            padding-bottom: 100px;
-            align-items: center;
-        }
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
 
-        /* Footer */
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+
+.blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+    .display-4 {
+        font-size: 3rem;
+    }
+}
+
+.card-img-right {
+    height: 100%;
+    border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+    flex: 0 0 auto;
+}
+
+.h-250 {
+    height: 250px;
+}
+
+@media (min-width: 768px) {
+    .h-md-250 {
+        height: 250px;
+    }
+}
+
+/* Pagination */
+.blog-pagination {
+    margin-bottom: 4rem;
+}
+
+.blog-pagination>.btn {
+    border-radius: 2rem;
+}
+
+/*
+* Blog posts
+*/
+.blog-post {
+    margin-bottom: 4rem;
+}
+
+.blog-post-title {
+    margin-bottom: .25rem;
+    font-size: 2.5rem;
+}
+
+.blog-post-meta {
+    margin-bottom: 1.25rem;
+    color: #727272;
+}
+
+/*
+* Footer
+*/
+.blog-footer {
+    padding: 2.5rem 0;
+    color: #727272;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
+
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}
+
+.container {
+    padding-top: 300px;
+    padding-bottom: 100px;
+    align-items: center;
+}
+
+/* Footer */
 footer {
-  background: #003049;
-  color: white;
-  font-family: "Arial";
-  text-align: center;
-  bottom: 0;
-  width: 100%;
-  height: 115px;
-  vertical-align: middle;
+    background: #003049;
+    color: white;
+    font-family: "Arial";
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 180px;
+    vertical-align: middle;
+    padding-top: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FDBF4A;
+}
+
+header {
+    margin-bottom: 20px;
 }
 
 .icon {
