@@ -138,3 +138,19 @@ footer a {
 .backlinks {
     display: none;
 }
+
+/* Section Settings */
+.container {
+  position: relative;
+  color: white;
+  font-weight: bold;
+  font-size: 46px;
+}
+
+
+
+
+
+
+
+
