@@ -157,8 +157,12 @@ footer a {
   width: 100vw;
 }
 
+.containerH1 {
+  position: absolute;
+  padding-bottom: 20px;
+}
 
-
-
-
-
+.containerP {
+  position: absolute;
+  padding-bottom: 20px;
+}
