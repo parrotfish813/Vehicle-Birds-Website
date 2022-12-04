@@ -160,14 +160,19 @@ footer a {
 
 .button {
   font-size: 1.5vw;
+  position: absolute;
+  bottom: -1vw;
+  width: 17vw;
 }
 
 .containerH1 {
   position: absolute;
-  padding-bottom: 20px;
+  bottom: -3vw;
+  padding-bottom: 20vw;
 }
 
 .containerP {
   position: absolute;
-  padding-bottom: 20px;
+  bottom: 8vw;
+  padding-top: 20vw;
 }
