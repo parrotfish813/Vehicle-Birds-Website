@@ -144,7 +144,8 @@ footer a {
   position: relative;
   color: white;
   font-weight: bold;
-  font-size: medium;
+  font-size: 1.5vw;
+  white-space: normal;
 }
 
 .imgW {
@@ -155,6 +156,10 @@ footer a {
   margin-right: -50vw;
   max-width: 100vw;
   width: 100vw;
+}
+
+.button {
+  font-size: 1.5vw;
 }
 
 .containerH1 {
