@@ -144,7 +144,7 @@ footer a {
   position: relative;
   color: white;
   font-weight: bold;
-  font-size: medium;
+  font-size: 2vw;
 }
 
 .imgW {
@@ -157,6 +157,9 @@ footer a {
   width: 100vw;
 }
 
+.button {
+  font-size: 1.5vw;
+}
 
 
 
