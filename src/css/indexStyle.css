@@ -119,6 +119,7 @@ footer {
   height: 180px;
   vertical-align: middle;
   padding-top: 15px;
+  margin-top: 50px;
 }
 
 footer a {
@@ -150,19 +151,16 @@ footer a {
 
 .imgW {
   position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  max-width: 100vw;
-  width: 100vw;
+  max-width: 100%;
+  width: 100%;
+  margin-top: 35px;
+  margin-bottom: 10px;
 }
 
 .button {
   font-size: 1.5vw;
   position: absolute;
-  bottom: -1vw;
-  width: 17vw;
+  display: block;
 }
 
 .containerH1 {
@@ -175,4 +173,8 @@ footer a {
   position: absolute;
   bottom: 8vw;
   padding-top: 20vw;
+}
+
+.pic {
+  margin-bottom: 10px;
 }
